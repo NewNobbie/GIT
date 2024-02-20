@@ -18,11 +18,26 @@ For exit/ ctrl + 0 and ctrl +  X if it's VIM esc + :wq
 - git init  
 - --global init.defaultBranch name (to change branch name)
 
+## Cmd to verificate status of files
+- git status
+
+## Cmd for change version
+- git checkout <Id o name of Branch>
+
 ## Steps for create a version of our code
 1. Add all files to commit
 - git add .
 - git add *.js
 - git add styles.css
+
+2. Take a photo of code (Create a new version)
+- git commit -m "Name of Commit" -> Maximun of 50 words recommended
+
+## Cmd to list version of my projects
+- git log
+- git log --oneline
+
+
 
 
 
